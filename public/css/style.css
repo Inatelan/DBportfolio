@@ -1,0 +1,92 @@
+/* ===== 기본 설정 ===== */
+body {
+  margin: 0; /* 중요: 기본 여백 제거 */
+  background-color: #3a3d3b;
+  color: #33ff66;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== 전체 레이아웃 ===== */
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ===== 메인 콘텐츠 영역 ===== */
+.main {
+  flex: 1;
+  padding: 20px;
+  padding-top: 10px; /* nav 바로 아래에서 시작 */
+  box-sizing: border-box;
+}
+
+/* ===== 사이드 패널 ===== */
+.sidebar {
+  width: 260px;
+  background-color: #2e302f;
+  padding: 15px;
+  box-sizing: border-box;
+  border-left: 2px solid #33ff66;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.sidebar p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* ===== 네비게이션 ===== */
+nav {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #33ff66;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== 구분선 ===== */
+hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #33ff66;
+}
+
+/* ===== 입력 요소 ===== */
+input,
+textarea,
+select,
+button {
+  background-color: #1f201f;
+  color: #33ff66;
+  border: 1px solid #33ff66;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #33ff66;
+  color: #1f201f;
+}
+
+/* ===== 게시판 ===== */
+.post,
+.comment {
+  border: 1px solid #33ff66;
+  padding: 10px;
+  margin-bottom: 10px;
+}

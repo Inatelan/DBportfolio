@@ -1,0 +1,40 @@
+<%- include('layout') %>
+
+<h1>UI 기능 테스트</h1>
+
+<div>
+  텍스트:
+  <input id="textInput" type="text">
+  <button onclick="showText()">작동</button>
+  <p id="textResult"></p>
+</div>
+
+<div>
+  라디오:
+  <input type="radio" name="radioTest" value="A"> A
+  <input type="radio" name="radioTest" value="B"> B
+  <button onclick="showRadio()">작동</button>
+  <p id="radioResult"></p>
+</div>
+
+<div>
+  선택상자:
+  <select id="selectBox">
+    <option value="선택1">선택사항 1번</option>
+    <option value="선택2">선택사항 2번</option>
+  </select>
+  <button onclick="showSelect()">작동</button>
+  <p id="selectResult"></p>
+</div>
+
+<div>
+  텍스트에어리어:
+  <textarea id="textArea"></textarea>
+  <button onclick="showTextarea()">작동</button>
+  <p id="textareaResult"></p>
+</div>
+
+    
+  </div>
+</body>
+</html>
